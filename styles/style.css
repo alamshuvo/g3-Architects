@@ -1,0 +1,114 @@
+/* work sans font import by google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* common shared css styles */
+.container{
+    max-width: 1400px;
+    width: 75%;
+    margin: 0px auto;
+}
+.btn-primary{
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding:20px 25px;
+    color: #fff;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+
+/* header area css start here */
+body{
+   
+}
+.header-area{
+    
+    padding: 50px 240px;
+    background-color: rgba(255, 144, 14, 0.10);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>h3{
+    font-size:3rem ;
+    font-weight: 700;
+    color: #131313;
+}
+nav .nav-ul{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+nav .nav-ul li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #424242;
+
+}
+nav .nav-ul li a{
+    text-decoration: none;
+}
+/* banner section styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+    
+}
+.banner-content .banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color:#131313 ;
+    margin-top: 50px;
+}
+.banner-content .banner-dris{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 50px;
+}
+.banner-content button{
+    margin-top: 50px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 30px;
+}
+/* responsive style  */
+/* mobile responsive */
+@media screen and (max-width:576px) {
+    .header-area{
+        padding: 20px;
+    }
+    nav,.nav-ul{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+/* medium device  */
+@media screen and (min-width:577px) and (max-width:960px) {
+    .header-area{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
