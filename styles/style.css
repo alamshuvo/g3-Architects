@@ -34,6 +34,11 @@ body{
     color: #727272;
 
 }
+.section-title{
+    font-size:3rem ;
+    font-weight: 700;
+    color: #131313;
+}
 
 /* header area css start here */
 .header-area{
@@ -45,11 +50,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-nav>h3{
-    font-size:3rem ;
-    font-weight: 700;
-    color: #131313;
 }
 nav .nav-ul{
     display: flex;
@@ -132,6 +132,45 @@ main{
 }
 
 /* team area section end  here */
+/* facts css start */
+#some-fact{
+ 
+}
+.some-fact-container{
+    margin-top: 70px;
+}
+.some-fact-container .section-dris{
+    /* width: 400px; */
+    margin-top: 15px;
+}
+.some-fact-icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #FF900E;
+    padding:30px;
+    border-radius: 8px;
+    text-align: center;
+}
+.rectangle .rectangle-stats{
+    color: #727272;
+    font-size: 2.8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rectangle  .rectangle-dris{
+    color: #727272;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+
 
 /* responsive style  */
 /* mobile responsive */
@@ -141,7 +180,7 @@ main{
     .header-area{
         padding: 20px;
     }
-    nav,.nav-ul , .team-area-container{
+    nav,.nav-ul , .team-area-container ,.some-fact-icons{
         flex-direction: column;
         gap: 20px;
         justify-content: center;
@@ -162,6 +201,23 @@ main{
         padding: 0px 20px;
         
     }
+    .team-dris ,.team-title{
+        text-align: center;
+    }
+    /* some facts section */
+    .section-dris{
+        text-align: center;
+        width: 100%;
+        font-size: 1rem;
+    }
+    .section-title{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .some-fact-container{
+        padding: 5px;
+    }
+
 }
 /* medium device  */
 @media screen and (min-width:577px) and (max-width:960px) {
@@ -169,7 +225,7 @@ main{
     .header-area{
         padding: 50px;
     }
-    nav , .team-area-container{
+    nav , .team-area-container,.some-fact-icons{
         flex-direction: column;
         gap: 30px;
         justify-content: center;
@@ -182,7 +238,22 @@ main{
      /* team area start */
      .team-text-container{
         padding: 0px 20px;
-        
+    }
+    .team-dris ,.team-title{
+        text-align: center;
+    }
+    /* some facts */
+    .section-dris{
+        text-align: center;
+        width: 100%;
+        font-size: 1rem;
+    }
+    .section-title{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .some-fact-container{
+        padding: 5px;
     }
 
     
