@@ -170,6 +170,29 @@ main{
     font-size: 1.25rem;
     margin-top: 5px;
 }
+/* sponsore section start */
+#sponsore-section{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponsore-section{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.sponsore-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;  
+    gap: 40px; 
+}
+.sponsore-img img{
+    width: 150px;
+}
+.section-title{
+    margin-bottom: 10px;
+}
+
 
 
 /* responsive style  */
@@ -180,7 +203,7 @@ main{
     .header-area{
         padding: 20px;
     }
-    nav,.nav-ul , .team-area-container ,.some-fact-icons{
+    nav,.nav-ul , .team-area-container ,.some-fact-icons,.sponsore-img{
         flex-direction: column;
         gap: 20px;
         justify-content: center;
@@ -217,6 +240,8 @@ main{
     .some-fact-container{
         padding: 5px;
     }
+    /* sponser section */
+
 
 }
 /* medium device  */
@@ -225,7 +250,7 @@ main{
     .header-area{
         padding: 50px;
     }
-    nav , .team-area-container,.some-fact-icons{
+    nav , .team-area-container,.some-fact-icons ,.sponsore-img{
         flex-direction: column;
         gap: 30px;
         justify-content: center;
