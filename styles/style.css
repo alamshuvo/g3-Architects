@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+body{
+   
+}
 /* common shared css styles */
 .container{
     max-width: 1400px;
@@ -26,9 +29,6 @@
 
 
 /* header area css start here */
-body{
-   
-}
 .header-area{
     
     padding: 50px 240px;
@@ -85,6 +85,11 @@ nav .nav-ul li a{
     width: 100%;
     margin-top: 30px;
 }
+/* header area section end  */
+/* team area section start here */
+
+/* team area section end  here */
+
 /* responsive style  */
 /* mobile responsive */
 @media screen and (max-width:576px) {
@@ -96,6 +101,10 @@ nav .nav-ul li a{
         gap: 20px;
         justify-content: center;
         align-items: center;
+
+    }
+    nav h3{
+        text-align: center;
     }
     
 }
