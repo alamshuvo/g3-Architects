@@ -23,6 +23,7 @@ body {
   font-size: 1.25rem;
   font-weight: 600;
   cursor: pointer;
+  text-align: center;
 }
 .btn-primary:hover {
   background-color: brown;
